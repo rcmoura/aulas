@@ -1,0 +1,8 @@
+quant = int(input("Digite a quantidade de livros: "))
+valAluguel = float(input("Digite o valor do aluguel: "))
+fatAnual = float(quant/3*valAluguel*12)
+print ("Faturamento Anual: ", fatAnual)
+multas = float(valAluguel * 0.1 * (quant/3)/10)
+print ("Multas mensais: ",multas)
+quantfinal = float(quant-quant * 0.02 + quant/10)
+print ("Quantidade livros no final de ano: ",quantfinal) 
